@@ -1,0 +1,97 @@
+@media (max-width: 900px) {
+ nav, article, aside {
+   width: 100%;
+   height: auto;
+ }
+}
+
+body{
+  background-color: #eddeed;
+}
+
+
+h1, h2 {  
+  color: #9f7f9d;
+}
+p , li {
+ color: #302b31;
+ font: 100% Lucida Sans, Verdana;
+}
+
+a {
+ text-decoration: underline #302b31;
+ color: #302b31;
+}
+
+ul {
+ list-style-type: circle;
+}
+
+nav ul {  
+     list-style-type: none;
+}
+
+ul + p {  
+     font-style: italic;
+     font-size: 90%;
+}
+
+header {
+ background-color: #302b31; /* cor de fundo preto */
+ padding: 30px; /* será explicado a seguir */
+ text-align: center; /* centraliza o texto */
+ font-size: 35px; /* tamanho da fonte 35 pixels */
+}
+
+* {
+ box-sizing: border-box;
+}
+
+nav {
+ float: left;
+ width: 30%;
+ height: 300px;
+ padding: 20px;
+}
+
+aside {
+ float: left;
+ padding: 20px;
+ width: 70%;
+ background-color: #efebef;
+ height: 300px;
+}
+
+footer {
+ color: #302b31;
+ text-align: right;
+ font-size: 80%;
+ padding: 5px;
+ clear: both;
+}
+
+#menulist {
+ margin: 0;
+ padding: 0;
+}
+
+.menuitem {
+ background-color: #efebef;
+ border: 1px solid #d4d4d4;
+ border-radius: 20px;
+ padding: 10px;
+ margin-top: 10px;
+ cursor: pointer;
+}
+
+a:link {
+   color: #302b31;
+}
+
+a:visited {
+   color: #ea7be7;
+}
+
+a:hover {
+   color: #e60adf;
+}
